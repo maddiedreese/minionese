@@ -1,0 +1,15 @@
+{
+  "type": "byte-level-bpe",
+  "trained_from": "artifacts/data/train.jsonl",
+  "training_examples": 60000,
+  "requested_vocab_size": 512,
+  "actual_vocab_size": 512,
+  "special_tokens": {
+    "<pad>": 0,
+    "<bos>": 1,
+    "<eos>": 2,
+    "<user>": 3,
+    "<assistant>": 4
+  },
+  "pretrained": false
+}

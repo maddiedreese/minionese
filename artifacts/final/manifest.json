@@ -1,0 +1,25 @@
+{
+  "project": "minionese-lm",
+  "version": "0.1.0",
+  "pretrained": false,
+  "initialization": "random",
+  "parameters": 1354560,
+  "training_steps": 5000,
+  "training_tokens_seen": 9981697,
+  "best_step": 3000,
+  "weights": {
+    "file": "best.safetensors",
+    "sha256": "be8cfefe8cd0e4007d37f5c6da056efec5356e5ed1d86d347a91bc9e9624c917"
+  },
+  "tokenizer": {
+    "file": "tokenizer.json",
+    "sha256": "98db89ca2ef9fd3a54ecd27d5f7f7578cb090df05c79d52126a6219ed62921b2",
+    "trained_from_scratch": true,
+    "vocab_size": 512
+  },
+  "test": {
+    "perplexity": 1.116130744503612,
+    "behavioral_samples": 400,
+    "overall_pass_rate": 0.99
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "seed": 2026,
+  "generator": "original-template-v1",
+  "splits": {
+    "train": {
+      "examples": 60000,
+      "english": 30000,
+      "minionese": 30000
+    },
+    "validation": {
+      "examples": 4000,
+      "english": 2000,
+      "minionese": 2000
+    },
+    "test": {
+      "examples": 4000,
+      "english": 2000,
+      "minionese": 2000
+    }
+  },
+  "sha256": "5867c68b237d782cc825b073cad648c58212e300f1187acc7f1bc115f1468144"
+}

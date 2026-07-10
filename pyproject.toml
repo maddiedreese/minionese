@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "minionese-lm"
+version = "0.1.0"
+description = "A tiny conversational Minionese language model trained from scratch on Apple Silicon"
+requires-python = ">=3.11"
+dependencies = [
+  "mlx>=0.29,<0.33",
+  "numpy>=2.0,<3",
+  "tokenizers>=0.20,<0.23",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8,<10"]
+
+[project.scripts]
+minionese = "minionese.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+

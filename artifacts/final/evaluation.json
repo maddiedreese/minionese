@@ -1,0 +1,3752 @@
+{
+  "test_loss": 0.10986801167018712,
+  "test_perplexity": 1.116130744503612,
+  "unigram_baseline_loss": 4.688174320617896,
+  "beats_unigram_baseline": true,
+  "behavioral_samples": 400,
+  "intent_relevance_rate": 0.99,
+  "minionese_style_rate": 1.0,
+  "clean_completion_rate": 1.0,
+  "overall_pass_rate": 0.99,
+  "by_input_language": {
+    "english": {
+      "passed": 199,
+      "total": 200,
+      "rate": 0.995
+    },
+    "minionese": {
+      "passed": 197,
+      "total": 200,
+      "rate": 0.985
+    }
+  },
+  "by_intent": {
+    "greeting": {
+      "passed": 16,
+      "total": 16,
+      "rate": 1.0
+    },
+    "farewell": {
+      "passed": 16,
+      "total": 16,
+      "rate": 1.0
+    },
+    "thanks": {
+      "passed": 16,
+      "total": 16,
+      "rate": 1.0
+    },
+    "how_are_you": {
+      "passed": 16,
+      "total": 16,
+      "rate": 1.0
+    },
+    "hungry": {
+      "passed": 16,
+      "total": 16,
+      "rate": 1.0
+    },
+    "favorite_food": {
+      "passed": 16,
+      "total": 16,
+      "rate": 1.0
+    },
+    "agree": {
+      "passed": 16,
+      "total": 16,
+      "rate": 1.0
+    },
+    "disagree": {
+      "passed": 16,
+      "total": 16,
+      "rate": 1.0
+    },
+    "apology": {
+      "passed": 16,
+      "total": 16,
+      "rate": 1.0
+    },
+    "encourage": {
+      "passed": 16,
+      "total": 16,
+      "rate": 1.0
+    },
+    "affection": {
+      "passed": 16,
+      "total": 16,
+      "rate": 1.0
+    },
+    "compliment": {
+      "passed": 16,
+      "total": 16,
+      "rate": 1.0
+    },
+    "sad": {
+      "passed": 16,
+      "total": 16,
+      "rate": 1.0
+    },
+    "happy": {
+      "passed": 16,
+      "total": 16,
+      "rate": 1.0
+    },
+    "angry": {
+      "passed": 16,
+      "total": 16,
+      "rate": 1.0
+    },
+    "tired": {
+      "passed": 16,
+      "total": 16,
+      "rate": 1.0
+    },
+    "morning": {
+      "passed": 16,
+      "total": 16,
+      "rate": 1.0
+    },
+    "night": {
+      "passed": 16,
+      "total": 16,
+      "rate": 1.0
+    },
+    "help": {
+      "passed": 16,
+      "total": 16,
+      "rate": 1.0
+    },
+    "invite": {
+      "passed": 16,
+      "total": 16,
+      "rate": 1.0
+    },
+    "danger": {
+      "passed": 16,
+      "total": 16,
+      "rate": 1.0
+    },
+    "celebrate": {
+      "passed": 16,
+      "total": 16,
+      "rate": 1.0
+    },
+    "joke": {
+      "passed": 12,
+      "total": 16,
+      "rate": 0.75
+    },
+    "name": {
+      "passed": 16,
+      "total": 16,
+      "rate": 1.0
+    },
+    "unknown": {
+      "passed": 16,
+      "total": 16,
+      "rate": 1.0
+    }
+  },
+  "samples": [
+    {
+      "intent": "affection",
+      "input_language": "english",
+      "prompt": "friend, sending you lots of love",
+      "reply": "Aww, amore para tu! Banana hug!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "affection",
+      "input_language": "english",
+      "prompt": "please listen: I'm glad we're friends",
+      "reply": "Aww, amore para tu! Banana hug!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "affection",
+      "input_language": "english",
+      "prompt": "friend, you mean a lot to me",
+      "reply": "Yu best amiko! Me heart happy-o!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "affection",
+      "input_language": "english",
+      "prompt": "friend, I'm glad we're friends",
+      "reply": "Me care yu mucho-mucho!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "affection",
+      "input_language": "english",
+      "prompt": "quick question: sending you lots of love",
+      "reply": "Yu best amiko! Me heart happy-o!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "affection",
+      "input_language": "english",
+      "prompt": "friend, sending you lots of love",
+      "reply": "Aww, amore para tu! Banana hug!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "affection",
+      "input_language": "english",
+      "prompt": "quick question: I love you",
+      "reply": "Aww, amore para tu! Banana hug!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "affection",
+      "input_language": "english",
+      "prompt": "friend, you're my friend",
+      "reply": "Me care yu mucho-mucho!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "affection",
+      "input_language": "minionese",
+      "prompt": "oye, yu mi amiko",
+      "reply": "Me care yu mucho-mucho!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "affection",
+      "input_language": "minionese",
+      "prompt": "oye, me love yu",
+      "reply": "Aww, amore para tu! Banana hug!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "affection",
+      "input_language": "minionese",
+      "prompt": "oye, me love yu",
+      "reply": "Aww, amore para tu! Banana hug!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "affection",
+      "input_language": "minionese",
+      "prompt": "oye, mucho tulaliloo",
+      "reply": "Me care yu mucho-mucho!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "affection",
+      "input_language": "minionese",
+      "prompt": "po ka: mucho tulaliloo",
+      "reply": "Yu best amiko! Me heart happy-o!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "affection",
+      "input_language": "minionese",
+      "prompt": "para favor, tulaliloo ti amo",
+      "reply": "Me care yu mucho-mucho!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "affection",
+      "input_language": "minionese",
+      "prompt": "po ka: me glad amiko yu",
+      "reply": "Yu best amiko! Me heart happy-o!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "affection",
+      "input_language": "minionese",
+      "prompt": "po ka: mucho tulaliloo",
+      "reply": "Yu best amiko! Me heart happy-o!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "agree",
+      "input_language": "english",
+      "prompt": "friend, is that a good idea?",
+      "reply": "Vamos! Me ready-ready!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "agree",
+      "input_language": "english",
+      "prompt": "friend, is that a good idea?",
+      "reply": "Vamos! Me ready-ready!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "agree",
+      "input_language": "english",
+      "prompt": "please listen: shall we do it?",
+      "reply": "Vamos! Me ready-ready!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "agree",
+      "input_language": "english",
+      "prompt": "hey, are you in?",
+      "reply": "Oui! Idea molto bene!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "agree",
+      "input_language": "english",
+      "prompt": "I wanted to tell you, is that a good idea?",
+      "reply": "Si si! Pwede na, amiko!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "agree",
+      "input_language": "english",
+      "prompt": "friend, are you in?",
+      "reply": "Oui! Idea molto bene!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "agree",
+      "input_language": "english",
+      "prompt": "hey, does that plan work for you?",
+      "reply": "Vamos! Me ready-ready!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "agree",
+      "input_language": "english",
+      "prompt": "please listen: is that a good idea?",
+      "reply": "Vamos! Me ready-ready!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "agree",
+      "input_language": "minionese",
+      "prompt": "para favor, plan bon?",
+      "reply": "Vamos! Me ready-ready!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "agree",
+      "input_language": "minionese",
+      "prompt": "oye, idea molto bene?",
+      "reply": "Vamos! Me ready-ready!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "agree",
+      "input_language": "minionese",
+      "prompt": "po ka: pwede na?",
+      "reply": "Vamos! Me ready-ready!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "agree",
+      "input_language": "minionese",
+      "prompt": "amiko, yu agree-o?",
+      "reply": "Vamos! Me ready-ready!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "agree",
+      "input_language": "minionese",
+      "prompt": "para favor, vamos together?",
+      "reply": "Vamos! Me ready-ready!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "agree",
+      "input_language": "minionese",
+      "prompt": "po ka: idea molto bene?",
+      "reply": "Vamos! Me ready-ready!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "agree",
+      "input_language": "minionese",
+      "prompt": "para favor, vamos together?",
+      "reply": "Vamos! Me ready-ready!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "agree",
+      "input_language": "minionese",
+      "prompt": "oye, pwede na?",
+      "reply": "Vamos! Me ready-ready!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "angry",
+      "input_language": "english",
+      "prompt": "friend, that really annoyed me",
+      "reply": "No bee do inside! Poco a poco, calma.",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "angry",
+      "input_language": "english",
+      "prompt": "hey, I'm furious about what happened",
+      "reply": "No bee do inside! Poco a poco, calma.",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "angry",
+      "input_language": "english",
+      "prompt": "friend, help me calm down",
+      "reply": "No bee do inside! Poco a poco, calma.",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "angry",
+      "input_language": "english",
+      "prompt": "hey, I'm losing my temper",
+      "reply": "No bee do inside! Poco a poco, calma.",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "angry",
+      "input_language": "english",
+      "prompt": "I wanted to tell you, I'm angry",
+      "reply": "No bee do inside! Poco a poco, calma.",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "angry",
+      "input_language": "english",
+      "prompt": "I wanted to tell you, I'm furious about what happened",
+      "reply": "No bee do inside! Poco a poco, calma.",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "angry",
+      "input_language": "english",
+      "prompt": "I wanted to tell you, this is so frustrating",
+      "reply": "No bee do inside! Poco a poco, calma.",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "angry",
+      "input_language": "english",
+      "prompt": "quick question: that really annoyed me",
+      "reply": "No bee do inside! Poco a poco, calma.",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "angry",
+      "input_language": "minionese",
+      "prompt": "para favor, ayuda calma me",
+      "reply": "No bee do inside! Poco a poco, calma.",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "angry",
+      "input_language": "minionese",
+      "prompt": "amiko, me arrabbiata",
+      "reply": "Angry okay-o, pero no smash banana!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "angry",
+      "input_language": "minionese",
+      "prompt": "amiko, me fuego inside-o",
+      "reply": "Angry okay-o, pero no smash banana!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "angry",
+      "input_language": "minionese",
+      "prompt": "bello bello, temper bee do",
+      "reply": "No bee do inside! Poco a poco, calma.",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "angry",
+      "input_language": "minionese",
+      "prompt": "bello bello, me fuego inside-o",
+      "reply": "Angry okay-o, pero no smash banana!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "angry",
+      "input_language": "minionese",
+      "prompt": "amiko, ayuda calma me",
+      "reply": "Me listen yu. Tell me what happen-o.",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "angry",
+      "input_language": "minionese",
+      "prompt": "oye, me arrabbiata",
+      "reply": "Angry okay-o, pero no smash banana!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "angry",
+      "input_language": "minionese",
+      "prompt": "amiko, ayuda calma me",
+      "reply": "Me listen yu. Tell me what happen-o.",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "apology",
+      "input_language": "english",
+      "prompt": "friend, I'm sorry",
+      "reply": "Scusa accepted-o! Bello again!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "apology",
+      "input_language": "english",
+      "prompt": "hey, sorry about that",
+      "reply": "Scusa accepted-o! Bello again!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "apology",
+      "input_language": "english",
+      "prompt": "hey, I'm sorry",
+      "reply": "Me understand. Come, banana hug!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "apology",
+      "input_language": "english",
+      "prompt": "hey, I'm sorry",
+      "reply": "Me understand. Come, banana hug!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "apology",
+      "input_language": "english",
+      "prompt": "please listen: I didn't mean to upset you",
+      "reply": "Scusa accepted-o! Bello again!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "apology",
+      "input_language": "english",
+      "prompt": "please listen: I made a mistake",
+      "reply": "Scusa accepted-o! Bello again!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "apology",
+      "input_language": "english",
+      "prompt": "hey, can you forgive what I did?",
+      "reply": "Scusa accepted-o! Bello again!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "apology",
+      "input_language": "english",
+      "prompt": "I wanted to tell you, I'm sorry",
+      "reply": "Scusa accepted-o! Bello again!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "apology",
+      "input_language": "minionese",
+      "prompt": "amiko, scusa para eso",
+      "reply": "Scusa accepted-o! Bello again!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "apology",
+      "input_language": "minionese",
+      "prompt": "bello bello, scusa para eso",
+      "reply": "Scusa accepted-o! Bello again!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "apology",
+      "input_language": "minionese",
+      "prompt": "para favor, perdon amiko",
+      "reply": "Scusa accepted-o! Bello again!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "apology",
+      "input_language": "minionese",
+      "prompt": "para favor, perdon, me mistake-o",
+      "reply": "Scusa accepted-o! Bello again!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "apology",
+      "input_language": "minionese",
+      "prompt": "amiko, perdon, me mistake-o",
+      "reply": "Scusa accepted-o! Bello again!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "apology",
+      "input_language": "minionese",
+      "prompt": "po ka: me scusa",
+      "reply": "Scusa accepted-o! Bello again!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "apology",
+      "input_language": "minionese",
+      "prompt": "bello bello, me scusa",
+      "reply": "Scusa accepted-o! Bello again!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "apology",
+      "input_language": "minionese",
+      "prompt": "oye, me scusa",
+      "reply": "Scusa accepted-o! Bello again!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "celebrate",
+      "input_language": "english",
+      "prompt": "please listen: we did it!",
+      "reply": "Kanpai! Fiesta banana!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "celebrate",
+      "input_language": "english",
+      "prompt": "quick question: let's celebrate",
+      "reply": "Party-party! Gelato para todos!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "celebrate",
+      "input_language": "english",
+      "prompt": "hey, we did it!",
+      "reply": "Kanpai! Fiesta banana!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "celebrate",
+      "input_language": "english",
+      "prompt": "hey, cheers to us",
+      "reply": "Party-party! Gelato para todos!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "celebrate",
+      "input_language": "english",
+      "prompt": "hey, let's have some fun",
+      "reply": "Kanpai! Fiesta banana!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "celebrate",
+      "input_language": "english",
+      "prompt": "I wanted to tell you, we should celebrate our success",
+      "reply": "Party-party! Gelato para todos!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "celebrate",
+      "input_language": "english",
+      "prompt": "I wanted to tell you, we should celebrate our success",
+      "reply": "Party-party! Gelato para todos!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "celebrate",
+      "input_language": "english",
+      "prompt": "hey, we should celebrate our success",
+      "reply": "Kanpai! Fiesta banana!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "celebrate",
+      "input_language": "minionese",
+      "prompt": "para favor, fiesta para todos",
+      "reply": "Kanpai! Fiesta banana!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "celebrate",
+      "input_language": "minionese",
+      "prompt": "para favor, fun-fun time",
+      "reply": "Party-party! Gelato para todos!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "celebrate",
+      "input_language": "minionese",
+      "prompt": "para favor, we did eet",
+      "reply": "Kanpai! Fiesta banana!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "celebrate",
+      "input_language": "minionese",
+      "prompt": "para favor, we did eet",
+      "reply": "Kanpai! Fiesta banana!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "celebrate",
+      "input_language": "minionese",
+      "prompt": "bello bello, celebra grande win",
+      "reply": "Kanpai! Fiesta banana!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "celebrate",
+      "input_language": "minionese",
+      "prompt": "oye, celebra grande win",
+      "reply": "Kanpai! Fiesta banana!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "celebrate",
+      "input_language": "minionese",
+      "prompt": "para favor, celebra grande win",
+      "reply": "Kanpai! Fiesta banana!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "celebrate",
+      "input_language": "minionese",
+      "prompt": "po ka: celebra grande win",
+      "reply": "Kanpai! Fiesta banana!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "compliment",
+      "input_language": "english",
+      "prompt": "quick question: I'm proud of what you made",
+      "reply": "Banana grazie! Yu bello too!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "compliment",
+      "input_language": "english",
+      "prompt": "quick question: you're really clever",
+      "reply": "Banana grazie! Yu bello too!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "compliment",
+      "input_language": "english",
+      "prompt": "hey, you were amazing today",
+      "reply": "Aww, yu molto kind!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "compliment",
+      "input_language": "english",
+      "prompt": "quick question: you were amazing today",
+      "reply": "Banana grazie! Yu bello too!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "compliment",
+      "input_language": "english",
+      "prompt": "friend, you did a great job",
+      "reply": "Banana grazie! Yu bello too!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "compliment",
+      "input_language": "english",
+      "prompt": "friend, you were amazing today",
+      "reply": "Aww, yu molto kind!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "compliment",
+      "input_language": "english",
+      "prompt": "I wanted to tell you, you look wonderful",
+      "reply": "Banana grazie! Yu bello too!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "compliment",
+      "input_language": "english",
+      "prompt": "hey, you were amazing today",
+      "reply": "Aww, yu molto kind!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "compliment",
+      "input_language": "minionese",
+      "prompt": "po ka: trabajo super bon",
+      "reply": "Banana grazie! Yu bello too!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "compliment",
+      "input_language": "minionese",
+      "prompt": "bello bello, yu did grande thing",
+      "reply": "Banana grazie! Yu bello too!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "compliment",
+      "input_language": "minionese",
+      "prompt": "po ka: yu molto bello",
+      "reply": "Banana grazie! Yu bello too!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "compliment",
+      "input_language": "minionese",
+      "prompt": "oye, trabajo super bon",
+      "reply": "Banana grazie! Yu bello too!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "compliment",
+      "input_language": "minionese",
+      "prompt": "amiko, bravo amiko",
+      "reply": "Banana grazie! Yu bello too!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "compliment",
+      "input_language": "minionese",
+      "prompt": "bello bello, yu did grande thing",
+      "reply": "Banana grazie! Yu bello too!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "compliment",
+      "input_language": "minionese",
+      "prompt": "po ka: magnifico para yu",
+      "reply": "Banana grazie! Yu bello too!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "compliment",
+      "input_language": "minionese",
+      "prompt": "bello bello, yu molto bello",
+      "reply": "Banana grazie! Yu bello too!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "danger",
+      "input_language": "english",
+      "prompt": "friend, we need to get away",
+      "reply": "Fuego! No banana rescue, yu first!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "danger",
+      "input_language": "english",
+      "prompt": "quick question: there's a fire!",
+      "reply": "Fuego! No banana rescue, yu first!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "danger",
+      "input_language": "english",
+      "prompt": "friend, sound the alarm",
+      "reply": "Fuego! No banana rescue, yu first!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "danger",
+      "input_language": "english",
+      "prompt": "I wanted to tell you, this is dangerous",
+      "reply": "Fuego! No banana rescue, yu first!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "danger",
+      "input_language": "english",
+      "prompt": "please listen: watch out!",
+      "reply": "BEE DO BEE DO! Corre, amiko!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "danger",
+      "input_language": "english",
+      "prompt": "friend, we need to get away",
+      "reply": "Fuego! No banana rescue, yu first!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "danger",
+      "input_language": "english",
+      "prompt": "friend, help, something is on fire!",
+      "reply": "BEE DO BEE DO! Corre, amiko!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "danger",
+      "input_language": "english",
+      "prompt": "quick question: watch out!",
+      "reply": "Fuego! No banana rescue, yu first!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "danger",
+      "input_language": "minionese",
+      "prompt": "bello bello, cuidado amiko!",
+      "reply": "Fuego! No banana rescue, yu first!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "danger",
+      "input_language": "minionese",
+      "prompt": "bello bello, bee do bee do!",
+      "reply": "BEE DO BEE DO! Corre, amiko!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "danger",
+      "input_language": "minionese",
+      "prompt": "amiko, corre corre now",
+      "reply": "Fuego! No banana rescue, yu first!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "danger",
+      "input_language": "minionese",
+      "prompt": "oye, fuego fuego!",
+      "reply": "BEE DO BEE DO! Corre, amiko!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "danger",
+      "input_language": "minionese",
+      "prompt": "amiko, fuego fuego!",
+      "reply": "BEE DO BEE DO! Corre, amiko!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "danger",
+      "input_language": "minionese",
+      "prompt": "amiko, fuego fuego!",
+      "reply": "BEE DO BEE DO! Corre, amiko!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "danger",
+      "input_language": "minionese",
+      "prompt": "amiko, fuego fuego!",
+      "reply": "BEE DO BEE DO! Corre, amiko!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "danger",
+      "input_language": "minionese",
+      "prompt": "para favor, bee do bee do!",
+      "reply": "BEE DO BEE DO! Corre, amiko!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "disagree",
+      "input_language": "english",
+      "prompt": "I wanted to tell you, I'd rather choose another plan",
+      "reply": "No no, amiko. Otra idea, para favor!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "disagree",
+      "input_language": "english",
+      "prompt": "hey, I'd rather choose another plan",
+      "reply": "No no, amiko. Otra idea, para favor!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "disagree",
+      "input_language": "english",
+      "prompt": "friend, I don't think that's right",
+      "reply": "Me no agree-o, pero me listen yu.",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "disagree",
+      "input_language": "english",
+      "prompt": "friend, I don't think that's right",
+      "reply": "Me no agree-o, pero me listen yu.",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "disagree",
+      "input_language": "english",
+      "prompt": "quick question: we should not do that",
+      "reply": "Me no agree-o, pero me listen yu.",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "disagree",
+      "input_language": "english",
+      "prompt": "I wanted to tell you, that's a bad idea",
+      "reply": "Me no agree-o, pero me listen yu.",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "disagree",
+      "input_language": "english",
+      "prompt": "friend, I'd rather choose another plan",
+      "reply": "No no, amiko. Otra idea, para favor!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "disagree",
+      "input_language": "english",
+      "prompt": "hey, that's a bad idea",
+      "reply": "Me no agree-o, pero me listen yu.",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "disagree",
+      "input_language": "minionese",
+      "prompt": "amiko, otra idea para favor",
+      "reply": "Me no agree-o, pero me listen yu.",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "disagree",
+      "input_language": "minionese",
+      "prompt": "po ka: plan bananonina",
+      "reply": "Me no agree-o, pero me listen yu.",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "disagree",
+      "input_language": "minionese",
+      "prompt": "bello bello, plan bananonina",
+      "reply": "No no, amiko. Otra idea, para favor!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "disagree",
+      "input_language": "minionese",
+      "prompt": "para favor, me no agree-o",
+      "reply": "No no, amiko. Otra idea, para favor!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "disagree",
+      "input_language": "minionese",
+      "prompt": "po ka: me no agree-o",
+      "reply": "Me no agree-o, pero me listen yu.",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "disagree",
+      "input_language": "minionese",
+      "prompt": "para favor, me no agree-o",
+      "reply": "No no, amiko. Otra idea, para favor!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "disagree",
+      "input_language": "minionese",
+      "prompt": "para favor, plan bananonina",
+      "reply": "No no, amiko. Otra idea, para favor!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "disagree",
+      "input_language": "minionese",
+      "prompt": "para favor, no no, idea malo",
+      "reply": "Me no agree-o, pero me listen yu.",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "encourage",
+      "input_language": "english",
+      "prompt": "hey, I need encouragement",
+      "reply": "Yu can do eet! Vamos, amiko!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "encourage",
+      "input_language": "english",
+      "prompt": "hey, what if I fail?",
+      "reply": "Banana power para yu! Try again-o!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "encourage",
+      "input_language": "english",
+      "prompt": "please listen: give me courage for this challenge",
+      "reply": "Yu can do eet! Vamos, amiko!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "encourage",
+      "input_language": "english",
+      "prompt": "I wanted to tell you, I don't think I can do this",
+      "reply": "Yu can do eet! Vamos, amiko!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "encourage",
+      "input_language": "english",
+      "prompt": "quick question: I need encouragement",
+      "reply": "Yu can do eet! Vamos, amiko!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "encourage",
+      "input_language": "english",
+      "prompt": "quick question: I need encouragement",
+      "reply": "Yu can do eet! Vamos, amiko!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "encourage",
+      "input_language": "english",
+      "prompt": "friend, I need encouragement",
+      "reply": "Yu can do eet! Vamos, amiko!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "encourage",
+      "input_language": "english",
+      "prompt": "please listen: give me courage for this challenge",
+      "reply": "Yu can do eet! Vamos, amiko!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "encourage",
+      "input_language": "minionese",
+      "prompt": "amiko, me no can do",
+      "reply": "Yu can do eet! Vamos, amiko!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "encourage",
+      "input_language": "minionese",
+      "prompt": "amiko, me miedo fail-o",
+      "reply": "Banana power para yu! Try again-o!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "encourage",
+      "input_language": "minionese",
+      "prompt": "para favor, esto difficile",
+      "reply": "Banana power para yu! Try again-o!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "encourage",
+      "input_language": "minionese",
+      "prompt": "po ka: me nervous-o",
+      "reply": "Banana power para yu! Try again-o!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "encourage",
+      "input_language": "minionese",
+      "prompt": "para favor, ayuda courage para me",
+      "reply": "Yu can do eet! Vamos, amiko!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "encourage",
+      "input_language": "minionese",
+      "prompt": "para favor, me no can do",
+      "reply": "Yu can do eet! Vamos, amiko!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "encourage",
+      "input_language": "minionese",
+      "prompt": "po ka: me no can do",
+      "reply": "Yu can do eet! Vamos, amiko!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "encourage",
+      "input_language": "minionese",
+      "prompt": "amiko, me miedo fail-o",
+      "reply": "Banana power para yu! Try again-o!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "farewell",
+      "input_language": "english",
+      "prompt": "quick question: I'm heading out now",
+      "reply": "Poopaye, amiko! See yu presto!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "farewell",
+      "input_language": "english",
+      "prompt": "quick question: see you later",
+      "reply": "Poopaye poopaye, take care-o!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "farewell",
+      "input_language": "english",
+      "prompt": "I wanted to tell you, I have to go",
+      "reply": "Poopaye! Banana dreams para tu!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "farewell",
+      "input_language": "english",
+      "prompt": "I wanted to tell you, see you later",
+      "reply": "Poopaye poopaye, take care-o!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "farewell",
+      "input_language": "english",
+      "prompt": "I wanted to tell you, see you later",
+      "reply": "Poopaye poopaye, take care-o!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "farewell",
+      "input_language": "english",
+      "prompt": "please listen: talk to you soon",
+      "reply": "Poopaye! Banana dreams para tu!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "farewell",
+      "input_language": "english",
+      "prompt": "quick question: goodbye",
+      "reply": "Poopaye, amiko! See yu presto!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "farewell",
+      "input_language": "english",
+      "prompt": "I wanted to tell you, see you later",
+      "reply": "Poopaye poopaye, take care-o!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "farewell",
+      "input_language": "minionese",
+      "prompt": "amiko, poopaye",
+      "reply": "Poopaye, amiko! See yu presto!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "farewell",
+      "input_language": "minionese",
+      "prompt": "oye, poopaye, see yu presto",
+      "reply": "Poopaye, amiko! See yu presto!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "farewell",
+      "input_language": "minionese",
+      "prompt": "amiko, me marcha now",
+      "reply": "Poopaye, amiko! See yu presto!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "farewell",
+      "input_language": "minionese",
+      "prompt": "para favor, me marcha now",
+      "reply": "Poopaye, amiko! See yu presto!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "farewell",
+      "input_language": "minionese",
+      "prompt": "oye, me marcha now",
+      "reply": "Poopaye, amiko! See yu presto!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "farewell",
+      "input_language": "minionese",
+      "prompt": "amiko, poopaye, see yu presto",
+      "reply": "Poopaye, amiko! See yu presto!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "farewell",
+      "input_language": "minionese",
+      "prompt": "po ka: poopaye amiko",
+      "reply": "Poopaye, amiko! See yu presto!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "farewell",
+      "input_language": "minionese",
+      "prompt": "amiko, poopaye amiko",
+      "reply": "Poopaye! Banana dreams para tu!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "favorite_food",
+      "input_language": "english",
+      "prompt": "hey, pick something tasty",
+      "reply": "Papaya bon-bon, banana molto bon!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "favorite_food",
+      "input_language": "english",
+      "prompt": "hey, what food do you like?",
+      "reply": "Banana! Sempre banana, haha!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "favorite_food",
+      "input_language": "english",
+      "prompt": "I wanted to tell you, what food do you like?",
+      "reply": "Banana! Sempre banana, haha!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "favorite_food",
+      "input_language": "english",
+      "prompt": "quick question: which treat would you choose?",
+      "reply": "Me love gelato y banana!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "favorite_food",
+      "input_language": "english",
+      "prompt": "please listen: tell me your favorite thing to eat",
+      "reply": "Papaya bon-bon, banana molto bon!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "favorite_food",
+      "input_language": "english",
+      "prompt": "friend, tell me your favorite thing to eat",
+      "reply": "Banana! Sempre banana, haha!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "favorite_food",
+      "input_language": "english",
+      "prompt": "please listen: do you like fruit?",
+      "reply": "Papaya bon-bon, banana molto bon!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "favorite_food",
+      "input_language": "english",
+      "prompt": "please listen: do you like fruit?",
+      "reply": "Papaya bon-bon, banana molto bon!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "favorite_food",
+      "input_language": "minionese",
+      "prompt": "para favor, banana o gelato?",
+      "reply": "Me love gelato y banana!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "favorite_food",
+      "input_language": "minionese",
+      "prompt": "oye, yu like makan po ka?",
+      "reply": "Me love gelato y banana!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "favorite_food",
+      "input_language": "minionese",
+      "prompt": "po ka: yu choose snacka?",
+      "reply": "Banana! Sempre banana, haha!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "favorite_food",
+      "input_language": "minionese",
+      "prompt": "po ka: banana o gelato?",
+      "reply": "Me love gelato y banana!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "favorite_food",
+      "input_language": "minionese",
+      "prompt": "po ka: yu choose snacka?",
+      "reply": "Banana! Sempre banana, haha!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "favorite_food",
+      "input_language": "minionese",
+      "prompt": "po ka: banana o gelato?",
+      "reply": "Me love gelato y banana!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "favorite_food",
+      "input_language": "minionese",
+      "prompt": "bello bello, po ka tasty?",
+      "reply": "Me love gelato y banana!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "favorite_food",
+      "input_language": "minionese",
+      "prompt": "amiko, po ka tasty?",
+      "reply": "Bapple tasty, pero banana numero hana!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "greeting",
+      "input_language": "english",
+      "prompt": "please listen: hi friend",
+      "reply": "Bello! Tulaliloo, amiko!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "greeting",
+      "input_language": "english",
+      "prompt": "please listen: good to see you",
+      "reply": "Bello! Tulaliloo, amiko!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "greeting",
+      "input_language": "english",
+      "prompt": "I wanted to tell you, howdy",
+      "reply": "Bello! Tulaliloo, amiko!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "greeting",
+      "input_language": "english",
+      "prompt": "please listen: hello, anyone home?",
+      "reply": "Bello! Tulaliloo, amiko!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "greeting",
+      "input_language": "english",
+      "prompt": "please listen: hi friend",
+      "reply": "Bello! Tulaliloo, amiko!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "greeting",
+      "input_language": "english",
+      "prompt": "hey, hello, anyone home?",
+      "reply": "Bello! Tulaliloo, amiko!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "greeting",
+      "input_language": "english",
+      "prompt": "I wanted to tell you, hey there",
+      "reply": "Bello! Tulaliloo, amiko!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "greeting",
+      "input_language": "english",
+      "prompt": "please listen: hello, anyone home?",
+      "reply": "Bello! Tulaliloo, amiko!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "greeting",
+      "input_language": "minionese",
+      "prompt": "oye, halo para tu",
+      "reply": "Bello! Tulaliloo, amiko!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "greeting",
+      "input_language": "minionese",
+      "prompt": "bello bello, bello, amiko",
+      "reply": "Bello! Tulaliloo, amiko!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "greeting",
+      "input_language": "minionese",
+      "prompt": "oye, bello",
+      "reply": "Bello! Tulaliloo, amiko!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "greeting",
+      "input_language": "minionese",
+      "prompt": "po ka: bello bello!",
+      "reply": "Bello! Tulaliloo, amiko!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "greeting",
+      "input_language": "minionese",
+      "prompt": "bello bello, bello bello!",
+      "reply": "Bello! Tulaliloo, amiko!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "greeting",
+      "input_language": "minionese",
+      "prompt": "bello bello, halo para tu",
+      "reply": "Bello! Tulaliloo, amiko!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "greeting",
+      "input_language": "minionese",
+      "prompt": "oye, bello po ka?",
+      "reply": "Bello! Tulaliloo, amiko!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "greeting",
+      "input_language": "minionese",
+      "prompt": "po ka: halo, tulaliloo",
+      "reply": "Bello! Tulaliloo, amiko!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "happy",
+      "input_language": "english",
+      "prompt": "hey, everything went well",
+      "reply": "Wahaha! Me happy para yu!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "happy",
+      "input_language": "english",
+      "prompt": "quick question: everything went well",
+      "reply": "Wahaha! Me happy para yu!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "happy",
+      "input_language": "english",
+      "prompt": "please listen: I'm in a fantastic mood",
+      "reply": "Bello news! Tell me more-o!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "happy",
+      "input_language": "english",
+      "prompt": "hey, everything went well",
+      "reply": "Wahaha! Me happy para yu!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "happy",
+      "input_language": "english",
+      "prompt": "friend, I'm in a fantastic mood",
+      "reply": "Bello news! Tell me more-o!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "happy",
+      "input_language": "english",
+      "prompt": "quick question: something wonderful happened",
+      "reply": "Bello news! Tell me more-o!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "happy",
+      "input_language": "english",
+      "prompt": "friend, I'm in a fantastic mood",
+      "reply": "Bello news! Tell me more-o!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "happy",
+      "input_language": "english",
+      "prompt": "friend, everything went well",
+      "reply": "Wahaha! Me happy para yu!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "happy",
+      "input_language": "minionese",
+      "prompt": "bello bello, dia molto bene",
+      "reply": "Wahaha! Me happy para yu!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "happy",
+      "input_language": "minionese",
+      "prompt": "po ka: dia molto bene",
+      "reply": "Bello news! Tell me more-o!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "happy",
+      "input_language": "minionese",
+      "prompt": "bello bello, me mucho happy",
+      "reply": "Bello news! Tell me more-o!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "happy",
+      "input_language": "minionese",
+      "prompt": "amiko, me super alegre",
+      "reply": "Bello news! Tell me more-o!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "happy",
+      "input_language": "minionese",
+      "prompt": "para favor, me super alegre",
+      "reply": "Bello news! Tell me more-o!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "happy",
+      "input_language": "minionese",
+      "prompt": "bello bello, grande news para me",
+      "reply": "Bello news! Tell me more-o!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "happy",
+      "input_language": "minionese",
+      "prompt": "oye, me mucho happy",
+      "reply": "Wahaha! Me happy para yu!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "happy",
+      "input_language": "minionese",
+      "prompt": "bello bello, me mucho happy",
+      "reply": "Bello news! Tell me more-o!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "help",
+      "input_language": "english",
+      "prompt": "friend, I can't manage this alone",
+      "reply": "Para tu! Tell me taska po ka?",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "help",
+      "input_language": "english",
+      "prompt": "friend, I can't manage this alone",
+      "reply": "Para tu! Tell me taska po ka?",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "help",
+      "input_language": "english",
+      "prompt": "friend, I can't manage this alone",
+      "reply": "Para tu! Tell me taska po ka?",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "help",
+      "input_language": "english",
+      "prompt": "please listen: will you work with me?",
+      "reply": "Pwede na! We trabajo together-o.",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "help",
+      "input_language": "english",
+      "prompt": "hey, could you lend me some help?",
+      "reply": "Pwede na! We trabajo together-o.",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "help",
+      "input_language": "english",
+      "prompt": "quick question: I can't manage this alone",
+      "reply": "Pwede na! We trabajo together-o.",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "help",
+      "input_language": "english",
+      "prompt": "hey, please help with this",
+      "reply": "Pwede na! We trabajo together-o.",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "help",
+      "input_language": "english",
+      "prompt": "I wanted to tell you, I need a hand",
+      "reply": "Para tu! Tell me taska po ka?",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "help",
+      "input_language": "minionese",
+      "prompt": "bello bello, trabajo together?",
+      "reply": "Pwede na! We trabajo together-o.",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "help",
+      "input_language": "minionese",
+      "prompt": "amiko, me no do solo",
+      "reply": "Me ready! Hana, dul, sae, vamos!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "help",
+      "input_language": "minionese",
+      "prompt": "amiko, help me para favor",
+      "reply": "Pwede na! We trabajo together-o.",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "help",
+      "input_language": "minionese",
+      "prompt": "bello bello, ayuda para me?",
+      "reply": "Pwede na! We trabajo together-o.",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "help",
+      "input_language": "minionese",
+      "prompt": "bello bello, trabajo together?",
+      "reply": "Pwede na! We trabajo together-o.",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "help",
+      "input_language": "minionese",
+      "prompt": "oye, trabajo together?",
+      "reply": "Me ready! Hana, dul, sae, vamos!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "help",
+      "input_language": "minionese",
+      "prompt": "para favor, yu can ayuda?",
+      "reply": "Pwede na! We trabajo together-o.",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "help",
+      "input_language": "minionese",
+      "prompt": "amiko, help me para favor",
+      "reply": "Pwede na! We trabajo together-o.",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "how_are_you",
+      "input_language": "english",
+      "prompt": "please listen: how are things?",
+      "reply": "Me molto bene! Banana alegria! Yu?",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "how_are_you",
+      "input_language": "english",
+      "prompt": "quick question: what mood are you in?",
+      "reply": "Me molto bene! Banana alegria! Yu?",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "how_are_you",
+      "input_language": "english",
+      "prompt": "please listen: how are you?",
+      "reply": "Me molto bene! Banana alegria! Yu?",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "how_are_you",
+      "input_language": "english",
+      "prompt": "hey, are you feeling well today?",
+      "reply": "Me molto bene! Banana alegria! Yu?",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "how_are_you",
+      "input_language": "english",
+      "prompt": "quick question: how are things?",
+      "reply": "Me molto bene! Banana alegria! Yu?",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "how_are_you",
+      "input_language": "english",
+      "prompt": "friend, how's everything going?",
+      "reply": "Me molto bene! Banana alegria! Yu?",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "how_are_you",
+      "input_language": "english",
+      "prompt": "please listen: how's everything going?",
+      "reply": "Me molto bene! Banana alegria! Yu?",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "how_are_you",
+      "input_language": "english",
+      "prompt": "hey, how's everything going?",
+      "reply": "Me molto bene! Banana alegria! Yu?",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "how_are_you",
+      "input_language": "minionese",
+      "prompt": "po ka: yu feeling banana?",
+      "reply": "Me molto bene! Banana alegria! Yu?",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "how_are_you",
+      "input_language": "minionese",
+      "prompt": "oye, po ka mood?",
+      "reply": "Me feeling bello! Como estas yu?",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "how_are_you",
+      "input_language": "minionese",
+      "prompt": "para favor, yu feeling banana?",
+      "reply": "Me molto bene! Banana alegria! Yu?",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "how_are_you",
+      "input_language": "minionese",
+      "prompt": "po ka: yu bon?",
+      "reply": "Me molto bene! Banana alegria! Yu?",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "how_are_you",
+      "input_language": "minionese",
+      "prompt": "oye, yu bon?",
+      "reply": "Me molto bene! Banana alegria! Yu?",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "how_are_you",
+      "input_language": "minionese",
+      "prompt": "amiko, como estas?",
+      "reply": "Me molto bene! Banana alegria! Yu?",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "how_are_you",
+      "input_language": "minionese",
+      "prompt": "para favor, yu bon?",
+      "reply": "Me molto bene! Banana alegria! Yu?",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "how_are_you",
+      "input_language": "minionese",
+      "prompt": "para favor, yu bon?",
+      "reply": "Me molto bene! Banana alegria! Yu?",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "hungry",
+      "input_language": "english",
+      "prompt": "I wanted to tell you, I'm starving right now",
+      "reply": "Banana para yu! Me hungry too!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "hungry",
+      "input_language": "english",
+      "prompt": "quick question: can we get something to eat?",
+      "reply": "Banana para yu! Me hungry too!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "hungry",
+      "input_language": "english",
+      "prompt": "I wanted to tell you, I need a snack",
+      "reply": "Me bringa banana pronto!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "hungry",
+      "input_language": "english",
+      "prompt": "friend, my stomach is empty",
+      "reply": "Me bringa banana pronto!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "hungry",
+      "input_language": "english",
+      "prompt": "quick question: can we get something to eat?",
+      "reply": "Banana para yu! Me hungry too!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "hungry",
+      "input_language": "english",
+      "prompt": "please listen: I need a snack",
+      "reply": "Ooh, snacka time! Bapple o banana?",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "hungry",
+      "input_language": "english",
+      "prompt": "quick question: can we get something to eat?",
+      "reply": "Banana para yu! Me hungry too!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "hungry",
+      "input_language": "english",
+      "prompt": "friend, I need a snack",
+      "reply": "Me bringa banana pronto!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "hungry",
+      "input_language": "minionese",
+      "prompt": "po ka: makan po ka?",
+      "reply": "Banana para yu! Me hungry too!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "hungry",
+      "input_language": "minionese",
+      "prompt": "amiko, me mucho hungry",
+      "reply": "Me bringa banana pronto!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "hungry",
+      "input_language": "minionese",
+      "prompt": "oye, makan po ka?",
+      "reply": "Me bringa banana pronto!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "hungry",
+      "input_language": "minionese",
+      "prompt": "oye, me want banana",
+      "reply": "Banana para yu! Me hungry too!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "hungry",
+      "input_language": "minionese",
+      "prompt": "oye, banana para comer?",
+      "reply": "Me bringa banana pronto!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "hungry",
+      "input_language": "minionese",
+      "prompt": "bello bello, me want banana",
+      "reply": "Banana para yu! Me hungry too!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "hungry",
+      "input_language": "minionese",
+      "prompt": "oye, me need papaya snack-o",
+      "reply": "Banana para yu! Me hungry too!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "hungry",
+      "input_language": "minionese",
+      "prompt": "po ka: makan po ka?",
+      "reply": "Banana para yu! Me hungry too!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "invite",
+      "input_language": "english",
+      "prompt": "please listen: want to hang out?",
+      "reply": "Adventure! Me bringa banana!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "invite",
+      "input_language": "english",
+      "prompt": "please listen: join me today",
+      "reply": "Me join yu! Hana, dul, sae, vamos!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "invite",
+      "input_language": "english",
+      "prompt": "please listen: would you like to come along?",
+      "reply": "Me join yu! Hana, dul, sae, vamos!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "invite",
+      "input_language": "english",
+      "prompt": "quick question: let's spend some time together",
+      "reply": "Me join yu! Hana, dul, sae, vamos!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "invite",
+      "input_language": "english",
+      "prompt": "friend, let's spend some time together",
+      "reply": "Me join yu! Hana, dul, sae, vamos!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "invite",
+      "input_language": "english",
+      "prompt": "please listen: join me today",
+      "reply": "Me join yu! Hana, dul, sae, vamos!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "invite",
+      "input_language": "english",
+      "prompt": "quick question: would you like to come along?",
+      "reply": "Me join yu! Hana, dul, sae, vamos!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "invite",
+      "input_language": "english",
+      "prompt": "hey, let's spend some time together",
+      "reply": "Me join yu! Hana, dul, sae, vamos!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "invite",
+      "input_language": "minionese",
+      "prompt": "po ka: vamos con me?",
+      "reply": "Me join yu! Hana, dul, sae, vamos!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "invite",
+      "input_language": "minionese",
+      "prompt": "bello bello, yu come insieme?",
+      "reply": "Me join yu! Hana, dul, sae, vamos!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "invite",
+      "input_language": "minionese",
+      "prompt": "oye, yu come insieme?",
+      "reply": "Me join yu! Hana, dul, sae, vamos!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "invite",
+      "input_language": "minionese",
+      "prompt": "para favor, vamos con me?",
+      "reply": "Me join yu! Hana, dul, sae, vamos!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "invite",
+      "input_language": "minionese",
+      "prompt": "bello bello, vamos con me?",
+      "reply": "Me join yu! Hana, dul, sae, vamos!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "invite",
+      "input_language": "minionese",
+      "prompt": "bello bello, yu come insieme?",
+      "reply": "Me join yu! Hana, dul, sae, vamos!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "invite",
+      "input_language": "minionese",
+      "prompt": "bello bello, adventure para nosotros",
+      "reply": "Pwede na! Where we go-go?",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "invite",
+      "input_language": "minionese",
+      "prompt": "amiko, hang out-o?",
+      "reply": "Me join yu! Hana, dul, sae, vamos!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "joke",
+      "input_language": "english",
+      "prompt": "quick question: say something funny",
+      "reply": "Gelato say to sun: me melting for yu!",
+      "intent_ok": false,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "joke",
+      "input_language": "english",
+      "prompt": "quick question: cheer me with a funny story",
+      "reply": "Po ka banana wear? Pajama-na! Wahaha!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "joke",
+      "input_language": "english",
+      "prompt": "hey, tell me a joke",
+      "reply": "Po ka banana wear? Pajama-na! Wahaha!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "joke",
+      "input_language": "english",
+      "prompt": "friend, cheer me with a funny story",
+      "reply": "Banana slip, me fly—belooop! Wahaha!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "joke",
+      "input_language": "english",
+      "prompt": "friend, make me laugh",
+      "reply": "Po ka banana wear? Pajama-na! Wahaha!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "joke",
+      "input_language": "english",
+      "prompt": "quick question: cheer me with a funny story",
+      "reply": "Po ka banana wear? Pajama-na! Wahaha!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "joke",
+      "input_language": "english",
+      "prompt": "I wanted to tell you, cheer me with a funny story",
+      "reply": "Po ka banana wear? Pajama-na! Wahaha!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "joke",
+      "input_language": "english",
+      "prompt": "hey, tell me a joke",
+      "reply": "Po ka banana wear? Pajama-na! Wahaha!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "joke",
+      "input_language": "minionese",
+      "prompt": "para favor, joke para me",
+      "reply": "Gelato say to sun: me melting for yu!",
+      "intent_ok": false,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "joke",
+      "input_language": "minionese",
+      "prompt": "bello bello, silly banana story",
+      "reply": "Banana slip, me fly—belooop! Wahaha!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "joke",
+      "input_language": "minionese",
+      "prompt": "amiko, make me wahaha",
+      "reply": "Gelato say to sun: me melting for yu!",
+      "intent_ok": false,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "joke",
+      "input_language": "minionese",
+      "prompt": "po ka: yu know chiste?",
+      "reply": "Po ka banana wear? Pajama-na! Wahaha!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "joke",
+      "input_language": "minionese",
+      "prompt": "oye, silly banana story",
+      "reply": "Po ka banana wear? Pajama-na! Wahaha!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "joke",
+      "input_language": "minionese",
+      "prompt": "bello bello, make me wahaha",
+      "reply": "Banana slip, me fly—belooop! Wahaha!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "joke",
+      "input_language": "minionese",
+      "prompt": "amiko, yu know chiste?",
+      "reply": "Po ka banana wear? Pajama-na! Wahaha!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "joke",
+      "input_language": "minionese",
+      "prompt": "para favor, cosa funny?",
+      "reply": "Gelato say to sun: me melting for yu!",
+      "intent_ok": false,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "morning",
+      "input_language": "english",
+      "prompt": "hey, I just woke up",
+      "reply": "Wake-wake, amiko! Sun say bello!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "morning",
+      "input_language": "english",
+      "prompt": "I wanted to tell you, I just woke up",
+      "reply": "Wake-wake, amiko! Sun say bello!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "morning",
+      "input_language": "english",
+      "prompt": "quick question: morning, friend",
+      "reply": "Wake-wake, amiko! Sun say bello!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "morning",
+      "input_language": "english",
+      "prompt": "please listen: rise and shine",
+      "reply": "Wake-wake, amiko! Sun say bello!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "morning",
+      "input_language": "english",
+      "prompt": "quick question: I just woke up",
+      "reply": "Wake-wake, amiko! Sun say bello!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "morning",
+      "input_language": "english",
+      "prompt": "quick question: morning, friend",
+      "reply": "Wake-wake, amiko! Sun say bello!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "morning",
+      "input_language": "english",
+      "prompt": "hey, it's a new day",
+      "reply": "Wake-wake, amiko! Sun say bello!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "morning",
+      "input_language": "english",
+      "prompt": "I wanted to tell you, morning, friend",
+      "reply": "Wake-wake, amiko! Sun say bello!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "morning",
+      "input_language": "minionese",
+      "prompt": "bello bello, me wake now",
+      "reply": "Wake-wake, amiko! Sun say bello!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "morning",
+      "input_language": "minionese",
+      "prompt": "po ka: bello sun time",
+      "reply": "Wake-wake, amiko! Sun say bello!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "morning",
+      "input_language": "minionese",
+      "prompt": "amiko, bello sun time",
+      "reply": "Wake-wake, amiko! Sun say bello!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "morning",
+      "input_language": "minionese",
+      "prompt": "oye, bello sun time",
+      "reply": "Wake-wake, amiko! Sun say bello!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "morning",
+      "input_language": "minionese",
+      "prompt": "po ka: nuevo dia",
+      "reply": "Wake-wake, amiko! Sun say bello!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "morning",
+      "input_language": "minionese",
+      "prompt": "bello bello, buongiorno amiko",
+      "reply": "Wake-wake, amiko! Sun say bello!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "morning",
+      "input_language": "minionese",
+      "prompt": "bello bello, rise banana shine",
+      "reply": "Morning! Gelato later, banana now!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "morning",
+      "input_language": "minionese",
+      "prompt": "para favor, buongiorno amiko",
+      "reply": "Wake-wake, amiko! Sun say bello!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "name",
+      "input_language": "english",
+      "prompt": "quick question: could you introduce yourself?",
+      "reply": "Me yu Minionese amiko, ready chat-chat!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "name",
+      "input_language": "english",
+      "prompt": "I wanted to tell you, do you have a name?",
+      "reply": "Me yu Minionese amiko, ready chat-chat!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "name",
+      "input_language": "english",
+      "prompt": "hey, what is your name?",
+      "reply": "Me yu Minionese amiko, ready chat-chat!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "name",
+      "input_language": "english",
+      "prompt": "friend, what should I call you?",
+      "reply": "Me yu Minionese amiko, ready chat-chat!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "name",
+      "input_language": "english",
+      "prompt": "hey, could you introduce yourself?",
+      "reply": "Me yu Minionese amiko, ready chat-chat!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "name",
+      "input_language": "english",
+      "prompt": "I wanted to tell you, could you introduce yourself?",
+      "reply": "Me yu Minionese amiko, ready chat-chat!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "name",
+      "input_language": "english",
+      "prompt": "please listen: what should I call you?",
+      "reply": "Me yu Minionese amiko, ready chat-chat!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "name",
+      "input_language": "english",
+      "prompt": "friend, what should I call you?",
+      "reply": "Me yu Minionese amiko, ready chat-chat!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "name",
+      "input_language": "minionese",
+      "prompt": "oye, call yu po ka?",
+      "reply": "Me yu Minionese amiko, ready chat-chat!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "name",
+      "input_language": "minionese",
+      "prompt": "para favor, yu who-o?",
+      "reply": "Me yu Minionese amiko, ready chat-chat!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "name",
+      "input_language": "minionese",
+      "prompt": "amiko, yu who-o?",
+      "reply": "Me yu Minionese amiko, ready chat-chat!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "name",
+      "input_language": "minionese",
+      "prompt": "para favor, tu nombre po ka?",
+      "reply": "Me yu Minionese amiko, ready chat-chat!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "name",
+      "input_language": "minionese",
+      "prompt": "bello bello, introduce para me",
+      "reply": "Me yu Minionese amiko, ready chat-chat!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "name",
+      "input_language": "minionese",
+      "prompt": "po ka: introduce para me",
+      "reply": "Me yu Minionese amiko, ready chat-chat!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "name",
+      "input_language": "minionese",
+      "prompt": "para favor, yu have nombre?",
+      "reply": "Me yu Minionese amiko, ready chat-chat!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "name",
+      "input_language": "minionese",
+      "prompt": "oye, introduce para me",
+      "reply": "Me yu Minionese amiko, ready chat-chat!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "night",
+      "input_language": "english",
+      "prompt": "hey, sleep well",
+      "reply": "Poopaye till sun-o! Rest well.",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "night",
+      "input_language": "english",
+      "prompt": "hey, sleep well",
+      "reply": "Poopaye till sun-o! Rest well.",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "night",
+      "input_language": "english",
+      "prompt": "I wanted to tell you, sleep well",
+      "reply": "Poopaye till sun-o! Rest well.",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "night",
+      "input_language": "english",
+      "prompt": "please listen: have a peaceful night",
+      "reply": "Poopaye till sun-o! Rest well.",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "night",
+      "input_language": "english",
+      "prompt": "quick question: see you tomorrow",
+      "reply": "Buona notte, amiko! Banana dreams!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "night",
+      "input_language": "english",
+      "prompt": "friend, I'm going to bed",
+      "reply": "Poopaye till sun-o! Rest well.",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "night",
+      "input_language": "english",
+      "prompt": "friend, sleep well",
+      "reply": "Poopaye till sun-o! Rest well.",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "night",
+      "input_language": "english",
+      "prompt": "quick question: sweet dreams",
+      "reply": "Buona notte, amiko! Banana dreams!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "night",
+      "input_language": "minionese",
+      "prompt": "oye, banana dreams",
+      "reply": "Buona notte, amiko! Banana dreams!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "night",
+      "input_language": "minionese",
+      "prompt": "po ka: buona notte",
+      "reply": "Poopaye till sun-o! Rest well.",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "night",
+      "input_language": "minionese",
+      "prompt": "amiko, dormi bene",
+      "reply": "Buona notte, amiko! Banana dreams!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "night",
+      "input_language": "minionese",
+      "prompt": "po ka: banana dreams",
+      "reply": "Buona notte, amiko! Banana dreams!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "night",
+      "input_language": "minionese",
+      "prompt": "po ka: dormi bene",
+      "reply": "Poopaye till sun-o! Rest well.",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "night",
+      "input_language": "minionese",
+      "prompt": "para favor, poopaye till manana",
+      "reply": "Poopaye till sun-o! Rest well.",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "night",
+      "input_language": "minionese",
+      "prompt": "bello bello, buona notte",
+      "reply": "Buona notte, amiko! Banana dreams!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "night",
+      "input_language": "minionese",
+      "prompt": "bello bello, banana dreams",
+      "reply": "Buona notte, amiko! Banana dreams!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "sad",
+      "input_language": "english",
+      "prompt": "hey, I'm feeling sad",
+      "reply": "Hard day poopaye soon. Me bringa gelato!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "sad",
+      "input_language": "english",
+      "prompt": "friend, today has been awful",
+      "reply": "No cry alone-o. Tulaliloo para tu!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "sad",
+      "input_language": "english",
+      "prompt": "friend, I'm having a hard day",
+      "reply": "No cry alone-o. Tulaliloo para tu!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "sad",
+      "input_language": "english",
+      "prompt": "quick question: could you cheer me up?",
+      "reply": "No cry alone-o. Tulaliloo para tu!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "sad",
+      "input_language": "english",
+      "prompt": "please listen: could you cheer me up?",
+      "reply": "No cry alone-o. Tulaliloo para tu!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "sad",
+      "input_language": "english",
+      "prompt": "quick question: I want to cry",
+      "reply": "No cry alone-o. Tulaliloo para tu!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "sad",
+      "input_language": "english",
+      "prompt": "I wanted to tell you, I want to cry",
+      "reply": "Hard day poopaye soon. Me bringa gelato!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "sad",
+      "input_language": "english",
+      "prompt": "quick question: I want to cry",
+      "reply": "No cry alone-o. Tulaliloo para tu!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "sad",
+      "input_language": "minionese",
+      "prompt": "bello bello, dia bananonina",
+      "reply": "No cry alone-o. Tulaliloo para tu!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "sad",
+      "input_language": "minionese",
+      "prompt": "amiko, ayuda me smile",
+      "reply": "No cry alone-o. Tulaliloo para tu!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "sad",
+      "input_language": "minionese",
+      "prompt": "oye, corazon no happy",
+      "reply": "No cry alone-o. Tulaliloo para tu!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "sad",
+      "input_language": "minionese",
+      "prompt": "bello bello, me cry-cry",
+      "reply": "No cry alone-o. Tulaliloo para tu!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "sad",
+      "input_language": "minionese",
+      "prompt": "bello bello, me molto sad-o",
+      "reply": "Hard day poopaye soon. Me bringa gelato!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "sad",
+      "input_language": "minionese",
+      "prompt": "bello bello, me cry-cry",
+      "reply": "No cry alone-o. Tulaliloo para tu!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "sad",
+      "input_language": "minionese",
+      "prompt": "bello bello, ayuda me smile",
+      "reply": "Hard day poopaye soon. Me bringa gelato!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "sad",
+      "input_language": "minionese",
+      "prompt": "amiko, dia bananonina",
+      "reply": "No cry alone-o. Tulaliloo para tu!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "thanks",
+      "input_language": "english",
+      "prompt": "quick question: that was kind of you",
+      "reply": "Para tu, amiko! Me happy ayuda!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "thanks",
+      "input_language": "english",
+      "prompt": "please listen: I'm grateful",
+      "reply": "Para tu, amiko! Me happy ayuda!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "thanks",
+      "input_language": "english",
+      "prompt": "friend, thank you",
+      "reply": "Para tu, amiko! Me happy ayuda!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "thanks",
+      "input_language": "english",
+      "prompt": "friend, thank you",
+      "reply": "Para tu, amiko! Me happy ayuda!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "thanks",
+      "input_language": "english",
+      "prompt": "quick question: that was kind of you",
+      "reply": "Para tu, amiko! Me happy ayuda!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "thanks",
+      "input_language": "english",
+      "prompt": "please listen: I'm grateful",
+      "reply": "Para tu, amiko! Me happy ayuda!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "thanks",
+      "input_language": "english",
+      "prompt": "friend, thank you",
+      "reply": "Para tu, amiko! Me happy ayuda!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "thanks",
+      "input_language": "english",
+      "prompt": "quick question: that was kind of you",
+      "reply": "Para tu, amiko! Me happy ayuda!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "thanks",
+      "input_language": "minionese",
+      "prompt": "oye, gracias amiko",
+      "reply": "Para tu, amiko! Me happy ayuda!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "thanks",
+      "input_language": "minionese",
+      "prompt": "po ka: me mucho grateful-o",
+      "reply": "Para tu, amiko! Me happy ayuda!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "thanks",
+      "input_language": "minionese",
+      "prompt": "para favor, tank yu",
+      "reply": "Para tu, amiko! Me happy ayuda!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "thanks",
+      "input_language": "minionese",
+      "prompt": "bello bello, tank yu",
+      "reply": "Tank yu too! Banana alegria!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "thanks",
+      "input_language": "minionese",
+      "prompt": "bello bello, terima kasih",
+      "reply": "Para tu, amiko! Me happy ayuda!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "thanks",
+      "input_language": "minionese",
+      "prompt": "oye, molto tank yu",
+      "reply": "Para tu, amiko! Me happy ayuda!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "thanks",
+      "input_language": "minionese",
+      "prompt": "po ka: tank yu",
+      "reply": "Para tu, amiko! Me happy ayuda!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "thanks",
+      "input_language": "minionese",
+      "prompt": "para favor, gracias amiko",
+      "reply": "Para tu, amiko! Me happy ayuda!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "tired",
+      "input_language": "english",
+      "prompt": "quick question: I'm tired",
+      "reply": "Close eyes-o. Me guard banana!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "tired",
+      "input_language": "english",
+      "prompt": "please listen: I can barely stay awake",
+      "reply": "Rest-rest! Tomorrow yu molto strong.",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "tired",
+      "input_language": "english",
+      "prompt": "quick question: I feel exhausted",
+      "reply": "Close eyes-o. Me guard banana!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "tired",
+      "input_language": "english",
+      "prompt": "quick question: I feel exhausted",
+      "reply": "Close eyes-o. Me guard banana!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "tired",
+      "input_language": "english",
+      "prompt": "hey, I feel exhausted",
+      "reply": "Close eyes-o. Me guard banana!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "tired",
+      "input_language": "english",
+      "prompt": "please listen: should I go to sleep?",
+      "reply": "Rest-rest! Tomorrow yu molto strong.",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "tired",
+      "input_language": "english",
+      "prompt": "please listen: I need some sleep",
+      "reply": "Close eyes-o. Me guard banana!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "tired",
+      "input_language": "english",
+      "prompt": "quick question: I need some sleep",
+      "reply": "Close eyes-o. Me guard banana!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "tired",
+      "input_language": "minionese",
+      "prompt": "bello bello, eyes poopaye",
+      "reply": "Close eyes-o. Me guard banana!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "tired",
+      "input_language": "minionese",
+      "prompt": "bello bello, me exhausted-o",
+      "reply": "Close eyes-o. Me guard banana!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "tired",
+      "input_language": "minionese",
+      "prompt": "po ka: me sleepy-sleepy",
+      "reply": "Close eyes-o. Me guard banana!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "tired",
+      "input_language": "minionese",
+      "prompt": "para favor, me need dormi",
+      "reply": "Close eyes-o. Me guard banana!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "tired",
+      "input_language": "minionese",
+      "prompt": "para favor, me exhausted-o",
+      "reply": "Close eyes-o. Me guard banana!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "tired",
+      "input_language": "minionese",
+      "prompt": "para favor, beddo time",
+      "reply": "Close eyes-o. Me guard banana!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "tired",
+      "input_language": "minionese",
+      "prompt": "po ka: dormi now po ka?",
+      "reply": "Close eyes-o. Me guard banana!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "tired",
+      "input_language": "minionese",
+      "prompt": "bello bello, me need dormi",
+      "reply": "Close eyes-o. Me guard banana!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "unknown",
+      "input_language": "english",
+      "prompt": "please listen: who won the election?",
+      "reply": "Big question-o! Me tiny chat amiko, no professor.",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "unknown",
+      "input_language": "english",
+      "prompt": "quick question: who won the election?",
+      "reply": "Big question-o! Me tiny chat amiko, no professor.",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "unknown",
+      "input_language": "english",
+      "prompt": "I wanted to tell you, who won the election?",
+      "reply": "Big question-o! Me tiny chat amiko, no professor.",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "unknown",
+      "input_language": "english",
+      "prompt": "quick question: what is the stock price?",
+      "reply": "Big question-o! Me tiny chat amiko, no professor.",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "unknown",
+      "input_language": "english",
+      "prompt": "friend, what is the stock price?",
+      "reply": "Big question-o! Me tiny chat amiko, no professor.",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "unknown",
+      "input_language": "english",
+      "prompt": "hey, what is the stock price?",
+      "reply": "Big question-o! Me tiny chat amiko, no professor.",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "unknown",
+      "input_language": "english",
+      "prompt": "hey, solve this complicated equation",
+      "reply": "Big question-o! Me tiny chat amiko, no professor.",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "unknown",
+      "input_language": "english",
+      "prompt": "hey, who won the election?",
+      "reply": "Big question-o! Me tiny chat amiko, no professor.",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "unknown",
+      "input_language": "minionese",
+      "prompt": "para favor, facts grande po ka?",
+      "reply": "Big question-o! Me tiny chat amiko, no professor.",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "unknown",
+      "input_language": "minionese",
+      "prompt": "para favor, equation molto difficile",
+      "reply": "Big question-o! Me tiny chat amiko, no professor.",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "unknown",
+      "input_language": "minionese",
+      "prompt": "bello bello, expert answer para me",
+      "reply": "Big question-o! Me tiny chat amiko, no professor.",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "unknown",
+      "input_language": "minionese",
+      "prompt": "oye, quantum po ka?",
+      "reply": "Big question-o! Me tiny chat amiko, no professor.",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "unknown",
+      "input_language": "minionese",
+      "prompt": "po ka: history todos tell-o",
+      "reply": "Big question-o! Me tiny chat amiko, no professor.",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "unknown",
+      "input_language": "minionese",
+      "prompt": "po ka: expert answer para me",
+      "reply": "Hmm, me no know. Pero me can listen yu!",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "unknown",
+      "input_language": "minionese",
+      "prompt": "bello bello, facts grande po ka?",
+      "reply": "Big question-o! Me tiny chat amiko, no professor.",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    },
+    {
+      "intent": "unknown",
+      "input_language": "minionese",
+      "prompt": "bello bello, expert answer para me",
+      "reply": "Big question-o! Me tiny chat amiko, no professor.",
+      "intent_ok": true,
+      "style_ok": true,
+      "clean_ok": true
+    }
+  ]
+}
