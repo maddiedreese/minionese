@@ -20,3 +20,10 @@ jobs:
         run: python -m pytest -q tests/test_inference_torch.py
       - name: Run the public CLI
         run: test "$(minionese-cpu hello --model artifacts/final)" = "Bello! Tulaliloo, amiko!"
+      - name: Download the Hugging Face release
+        run: |
+          python -m pip install 'huggingface_hub>=0.30,<2'
+          hf download maddiedreese/minionese --local-dir /tmp/minionese-hf
+      - name: Run the downloaded Hugging Face release
+        working-directory: /tmp/minionese-hf
+        run: test "$(python inference.py hello)" = "Bello! Tulaliloo, amiko!"
