@@ -8,20 +8,24 @@ version = "0.1.0"
 description = "A tiny conversational Minionese language model trained from scratch on Apple Silicon"
 requires-python = ">=3.11"
 dependencies = [
-  "mlx>=0.29,<0.33",
   "numpy>=2.0,<3",
   "tokenizers>=0.20,<0.23",
 ]
 
 [project.optional-dependencies]
+apple = ["mlx>=0.29,<0.33"]
+inference = [
+  "safetensors>=0.5,<1",
+  "torch>=2.6,<3",
+]
 dev = ["pytest>=8,<10"]
 
 [project.scripts]
 minionese = "minionese.cli:main"
+minionese-cpu = "minionese.inference_torch:main"
 
 [tool.setuptools.packages.find]
 where = ["src"]
 
 [tool.pytest.ini_options]
 pythonpath = ["src"]
-

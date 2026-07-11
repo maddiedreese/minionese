@@ -1,0 +1,22 @@
+name: CPU inference
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  linux:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+      - name: Install CPU inference dependencies
+        run: python -m pip install -e '.[inference,dev]'
+      - name: Test the real model export
+        run: python -m pytest -q tests/test_inference_torch.py
+      - name: Run the public CLI
+        run: test "$(minionese-cpu hello --model artifacts/final)" = "Bello! Tulaliloo, amiko!"

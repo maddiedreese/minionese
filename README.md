@@ -11,7 +11,7 @@ This project does **not** use pretrained weights, film subtitles, screenplay tex
 - learned positional embeddings and tied token/output embeddings
 - 512-token custom byte-level BPE tokenizer
 - 256-token context window
-- MLX training and inference on Apple Silicon
+- MLX training on Apple Silicon, plus PyTorch CPU inference on Linux, macOS, and Windows
 
 The exact parameter count is printed by `minionese doctor` and saved with every training report.
 
@@ -21,12 +21,12 @@ The included local artifact was trained from random initialization for 5,000 bat
 
 ## Set up and reproduce
 
-Python 3.11+ and Apple Silicon are required.
+Python 3.11+ and Apple Silicon are required to reproduce training.
 
 ```bash
 python3 -m venv .venv
 source .venv/bin/activate
-python -m pip install -e '.[dev]'
+python -m pip install -e '.[apple,dev]'
 minionese doctor
 minionese prepare
 minionese train-tokenizer
@@ -41,6 +41,26 @@ The ready-to-use export is in `artifacts/final`. To use it explicitly:
 ```bash
 minionese reply "hello" --model artifacts/final --tokenizer artifacts/final
 ```
+
+## Portable CPU inference
+
+The checked-in safetensors export can also run with PyTorch on a CPU-only Linux,
+macOS, or Windows machine; MLX and Apple Silicon are not required:
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+python -m pip install -e '.[inference]'
+minionese-cpu "hello" --model artifacts/final
+```
+
+Expected greedy-decoding output:
+
+```text
+Bello! Tulaliloo, amiko!
+```
+
+Try the hosted model at [notaminion.com](https://notaminion.com).
 
 
 ## Chat
